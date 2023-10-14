@@ -1,0 +1,62 @@
+body{
+    background: url('wallpaper_blur.jpg');
+    background-size: cover;
+    
+}
+input, textarea{
+    background: transparent;
+    border:1px solid rgb(255, 255, 255);
+    color: white;
+}
+#form{
+
+    /* background-color: rgb(152, 149, 149); */
+    border: 1px solid rgb(237, 231, 231);
+    
+    width: fit-content;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    
+    
+    
+}
+/* #form::before{
+    content: '';
+    background: url('wallpaper_blur.jpg');
+    position:absolute;
+    top:0px;
+    left:0px; 
+}*/
+
+
+#reg_title{
+    text-align: center;  
+    color: rgb(34, 107, 176) 
+}
+
+#logo{
+    max-height: 70px;
+    max-width: 70px;
+    position:absolute;
+    top: 5px;
+    left: 5px;
+}
+#account_exist_button{
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    padding: 1px;
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    /* margin: auto;
+    align-items: center;
+    justify-items: center; */
+}
+button{
+    width: fit-content;
+    display: block;
+    margin: auto;
+}

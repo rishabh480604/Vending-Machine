@@ -1,0 +1,1 @@
+run datbasecreation.php in using xampp to create then run home.php in xampp
